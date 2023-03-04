@@ -15,7 +15,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 94px;
 }
 
 h2 {
@@ -84,4 +84,30 @@ a:hover {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .appInfo {
+    text-align: center;
+  }
+
+  .abouImage {
+    margin-bottom: 35px;
+  }
+
+  .email {
+    font-size: 18px;
+  }
 }
